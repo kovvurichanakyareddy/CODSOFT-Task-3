@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?Comfortaa:wght@700&display=swap');
+        * {
+            font-family: 'Comfortaa', cursive;
+            font-weight: bolder;
+        }
+        i {
+            font-size: 32px;
+        }
+        input[type="text"] {
+            border-radius: 50px ;
+            height: 50px;
+            width: 300px;
+            border: 2px solid;
+            border-color: rgb(25, 161, 245);
+            color: rgb(0, 104, 169);
+            font-size: 20px;
+            padding-left: 10px;
+            font-weight: bold;
+            transition: 0.5s;
+        }
+        input[type="text"]:hover,input[type="text"]:focus {
+            box-shadow: 0 0 2px 2px rgb(25, 161, 245);
+        }
+        .dback {
+            background-color: rgb(25, 161, 245);
+            font-size: 32px;
+            border-radius: 20px;
+            border: 0;
+            color: white;
+            height: 60px;
+            width: 60px;
+            transition: 0.27s;
+        }
+        .dback:hover,.dback:active {
+            background-color: rgb(0, 129, 209);
+            cursor: pointer;
+        }
+        .dback:active {
+            background-color: rgb(0, 104, 169);
+            color: rgb(177, 225, 255);
+        }
+        .lback {
+            background-color: white;
+            border-radius: 20px;
+            border: 2px solid white;
+            height: 60px;
+            width: 50px;
+            font-size: 32px;
+            font-weight: bold;
+            color: rgb(25, 161, 245);
+            transition: 0.27s;
+        }
+        .lback:hover,.lback:active {
+            background-color: rgb(236, 236, 236);
+            border: 2px solid rgb(236, 236, 236);
+            color: rgb(0, 129, 209);
+            cursor: pointer;
+        }
+        .lback:active {
+            background-color: rgb(210, 210, 210);
+            border: 2px solid rgb(210, 210, 210);
+        }
+        #heading {
+            font-size: 33px;
+            color: rgb(0, 129, 209);
+            transition: 0.5s;
+        }
+        #heading:hover {
+            text-shadow: 1px 1px 5px;
+            cursor: pointer;
+        }
+        .aceq {
+            background-color: rgb(0, 104, 169);
+            color: rgb(140, 211, 255);
+        }
+        .aceq:hover {
+            color: white;
+        }
+        sup {
+            font-size: medium;
+        }
